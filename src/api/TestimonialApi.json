@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "feedback": "MuscleUp has completely changed my lifestyle. The trainers are world-class!",
+    "role": "Student"
+  },
+  {
+    "id": 2,
+    "name": "Pooja Mehta",
+    "feedback": "The 24/7 access is a game-changer. I work nights and this gym is perfect.",
+    "role": "Software Engineer"
+  },
+  {
+    "id": 3,
+    "name": "Amit Singh",
+    "feedback": "Clean, safe, and super motivating! Best gym in the city.",
+    "role": "Entrepreneur"
+  },
+  {
+    "id": 4,
+    "name": "Nisha Verma",
+    "feedback": "I lost 10kg in 3 months thanks to their personal training program.",
+    "role": "Marketing Executive"
+  },
+  {
+    "id": 5,
+    "name": "Manoj Desai",
+    "feedback": "The equipment is top-tier. I never have to wait or compromise on my workouts.",
+    "role": "Banker"
+  },
+  {
+    "id": 6,
+    "name": "Sana Shaikh",
+    "feedback": "The vibe is amazing here! Super positive community.",
+    "role": "Designer"
+  },
+  {
+    "id": 7,
+    "name": "Yash Agarwal",
+    "feedback": "Pricing is fair and the experience is premium. Highly recommend!",
+    "role": "CA Student"
+  },
+  {
+    "id": 8,
+    "name": "Priya Raj",
+    "feedback": "I joined with a friend and we both love the strength programs!",
+    "role": "Fitness Enthusiast"
+  },
+  {
+    "id": 9,
+    "name": "Rahul Nair",
+    "feedback": "They treat you like family here. Trainers genuinely care.",
+    "role": "Photographer"
+  },
+  {
+    "id": 10,
+    "name": "Kiran Joshi",
+    "feedback": "I’ve tried 5 gyms — this is the only one I stuck with!",
+    "role": "Accountant"
+  }
+]

@@ -1,0 +1,136 @@
+.whyus-section {
+  padding: 80px 20px;
+  background-color: var(--bg-white);
+}
+
+.whyus-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.whyus-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  background: var(--bg-white);
+  border: 4px solid #000000;
+  border-radius: 24px;
+  box-shadow: 12px 12px 0px #000000;
+  overflow: hidden;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.image-wrapper:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 14px 14px 0px #000000;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.whyus-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.whyus-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
+.whyus-title .highlight {
+  color: var(--primary-color);
+  position: relative;
+}
+
+.whyus-title .highlight::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--primary-color);
+  border-radius: 2px;
+}
+
+.whyus-description {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.whyus-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.05rem;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+  border: 3px solid #000000;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0px #000000;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .whyus-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .whyus-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .whyus-description,
+  .whyus-list {
+    text-align: center;
+  }
+
+  .btn-primary {
+    align-self: center;
+  }
+
+  .image-wrapper {
+    max-width: 100%;
+  }
+}
