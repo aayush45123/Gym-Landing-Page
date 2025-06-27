@@ -19,6 +19,25 @@ A visually stunning and fully responsive landing page for a fitness center built
 - **CSS3** with custom variables
 - `react-scroll`, `react-icons`, `gh-pages`
 
+- ### Hero Section
+![Hero](images/hero.png)
+
+### Programs Section
+![Programs](images/programs.png)
+
+### Why Us Section
+![Why Us](images/whyus.png)
+
+### Plans Section
+![Plans](images/plans.png)
+
+### Testimonials Section
+![Testimonials](images/testimonials.png)
+
+### Get Started Page
+![Get Started](images/getstarted.png)
+
+
 ## 🧭 Folder Structure
 
 ```
@@ -83,6 +102,8 @@ npm run dev
 ```
 
 ---
+
+
 
 ### 📬 Contact
 
