@@ -1,6 +1,7 @@
 .programs-section {
   padding: 80px 20px;
   background: var(--bg-white);
+  margin-top: 4rem; /* Add spacing from above section */
 }
 
 .programs-container {
@@ -55,10 +56,19 @@
   line-height: 1.6;
 }
 
-/* Responsive tweaks (optional) */
-@media (max-width: 480px) {
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .programs-section {
+    padding: 60px 15px;
+    margin-top: 3rem;
+  }
+
   .programs-heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .program-grid {
+    gap: 1.5rem;
   }
 
   .program-card {
@@ -67,5 +77,32 @@
 
   .program-icon {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .programs-section {
+    padding: 50px 10px;
+    margin-top: 2rem;
+  }
+
+  .programs-heading {
+    font-size: 2rem;
+  }
+
+  .program-card {
+    padding: 1.2rem;
+  }
+
+  .program-icon {
+    font-size: 1.8rem;
+  }
+
+  .program-title {
+    font-size: 1.2rem;
+  }
+
+  .program-desc {
+    font-size: 0.95rem;
   }
 }
