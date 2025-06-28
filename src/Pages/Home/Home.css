@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Tweak for smaller screens */
+@media (max-width: 480px) {
+  .section2 {
+    padding-top: 7rem;
+  }
+}
