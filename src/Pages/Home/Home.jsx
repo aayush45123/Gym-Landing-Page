@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import Hero from "../../Components/Hero/Hero";
 import Programs from "../Programs/Programs";
 import WhyUs from "../WhyUs/WhyUs";
@@ -10,20 +11,20 @@ import Footer from "../../Components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      <section id="home">
+      <section id="home" className="section">
         <Hero />
       </section>
 
-      <section id="program">
+      <section id="program" className="section2">
         <Programs />
       </section>
 
-      <section id="why-us">
+      <section id="why-us" className="section">
         <Title title="Why Us" subtitle="The MuscleUp Advantage" />
         <WhyUs />
       </section>
 
-      <section id="plans">
+      <section id="plans" className="section">
         <Title
           title="Pick Your Power"
           subtitle="Flexible Memberships Built for Every Goal"
@@ -31,10 +32,9 @@ const Home = () => {
         <Card />
       </section>
 
-      <section id="testimonials">
+      <section id="testimonials" className="section">
         <Testimonial />
       </section>
-
     </>
   );
 };
